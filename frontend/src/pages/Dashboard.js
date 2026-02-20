@@ -6,9 +6,9 @@ import {
   FaSignOutAlt, FaFacebook, FaWordpress, FaGlobe, 
   FaPaperPlane, FaClock
 } from 'react-icons/fa';
-import ArticlesList from './ArticlesList';
-import ScheduleModal from './ScheduleModal';
-import ConnectionModal from './ConnectionModal';
+import ArticlesList from '../components/ArticlesList';
+   import ScheduleModal from '../components/ScheduleModal';
+   import ConnectionModal from '../components/ConnectionModal';
 
 const Dashboard = () => {
   const { user, logout } = useAuth();
